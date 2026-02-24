@@ -1,0 +1,11 @@
+apiVersion: polyfea.github.io/v1alpha1
+kind: WebComponent
+metadata:
+  name: xmasiarikova-ambulance-ufe-content
+spec:
+  microFrontend: xmasiarikova-ambulance-ufe
+  element: xmasiarikova-ambulance-wl-list
+  displayRules:
+    - allOf:
+      - context-name: main-content
+      - path: "^(\\.?/)?xmasiarikova-ambulance-wl(/.*)?$"
