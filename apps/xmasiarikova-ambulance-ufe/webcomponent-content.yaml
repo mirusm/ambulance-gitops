@@ -4,7 +4,10 @@ metadata:
   name: xmasiarikova-ambulance-ufe-content
 spec:
   microFrontend: xmasiarikova-ambulance-ufe
-  element: xmasiarikova-ambulance-wl-list
+  element: xmasiarikova-ambulance-wl-app
+  attributes:
+    - name: base-path
+      value: /xmasiarikova-ambulance-wl/
   displayRules:
     - allOf:
       - context-name: main-content
