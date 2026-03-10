@@ -6,8 +6,10 @@ spec:
   microFrontend: xmasiarikova-ambulance-ufe
   element: xmasiarikova-ambulance-wl-app
   attributes:
-    - name: base-path
-      value: /xmasiarikova-ambulance-wl/
+    - name: api-base
+      value: http://localhost:5000/api
+    - name: ambulance-id
+      value: bobulova
   displayRules:
     - allOf:
       - context-name: main-content
