@@ -1,0 +1,12 @@
+apiVersion: wac-fiit.github.io/v1alpha1
+kind: Project
+metadata:
+  name: xmasiarikova-ambulance-wl # napr. <pfx>-ambulance-wl
+spec:
+  title: "Zoznam čakajúcich xmasiarikova" # napr. "Zoznam čakajúcich <pfx>"
+  description: "Spravuje zoznam pacientov čakajúcich na vyšetrenie v ambulancii" # napr. "Spravuje zoznam pacientov čakajúcich na vyšetrenie v ambulancii"
+  authors: "Miroslava Masiarikova" # Zadajte mená autorov
+  azureLink: "https://xmasiarikova-ambulance-ufe-eccrcrf9cge5fkeb.westeurope-01.azurewebsites.net"
+  frontendRepoUrl: "https://github.com/mirusm/ambulance-ufe"
+  backendRepoUrl: "https://github.com/mirusm/ambulance-webapi"
+  gitopsRepoUrl: "https://github.com/mirusm/ambulance-gitops"
