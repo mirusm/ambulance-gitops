@@ -12,6 +12,7 @@ labels:
 
 resources:
 - ../../../apps/xmasiarikova-ambulance-ufe
+- ../../../apps/xmasiarikova-ambulance-webapi
 
 
 components:
