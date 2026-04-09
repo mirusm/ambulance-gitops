@@ -8,6 +8,7 @@ labels:
     app.kubernetes.io/part-of: wac-hospital
     app.kubernetes.io/name: xmasiarikova-ambulance-wl
     wac-fiit.github.io/project: xmasiarikova-ambulance-wl
+  includeSelectors: true
   includeTemplates: true
 
 resources:
